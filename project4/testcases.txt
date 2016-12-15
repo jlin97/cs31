@@ -1,0 +1,42 @@
+//Other test cases
+
+/*
+string cand[6] = { "carly", "mike", "ted", "bernie", "jeb" };
+int irrelevant = rotateLeft(cand, 5, 3);
+cout << "The returned value is: " << irrelevant << endl;
+
+string d[9] = {"donald", "donald", "donald", "donald", "donald", "donald", "donald", "donald", "donald"	};
+int noSame = countRuns(d, 9);
+cout << noSame << endl;
+
+	string folks[6] = { "1", "2", "3", "4", "5", "6" };
+	const string folks2[6] = { "chris", "ben", "", "ben", "donald", "john" };
+	int q = lookup(folks2, 6, "ben");
+	cout << q << endl;
+
+string folks[6] = { "chris", "marco", "", "ben", "donald", "john" };
+string group[5] = { "chris", "marco", "john", "", "carly" };
+int x = differ(folks, 2, group, 1);
+cout << x << endl;
+
+string names[10] = { "ted", "hillary", "rand", "bernie", "mike", "jeb" };
+string names1[10] = { "hillary", "rand", "bernie" };
+int t = subsequence(names, 6, names1, 3);  // returns 1
+string names2[10] = { "ted", "bernie" };
+int u = subsequence(names, 5, names2, 2);  // returns -1
+cout << t << endl << u << endl;
+
+string names[10] = { "ted", "hillary", "rand", "bernie", "mike", "jeb" };
+string set1[10] = { "carly", "mike", "bernie", "hillary" };
+int v = lookupAny(names, 6, set1, 4);  // returns 1 (a1 has "hillary" there)
+string set2[10] = { "ben", "donald" };
+int w = lookupAny(names, 6, set2, 2);  // returns -1 (a1 has none)
+cout << v << endl << w << endl;
+
+string cand[6] = { "bernie", "hillary", "donald", "marco", "carly", "ben" };
+int x = split(cand, 3, "");  //  returns 3
+cout << x << endl;
+string cand2[4] = { "donald", "hillary", "jeb", "ben" };
+int y = split(cand2, 4, "donald");  //  returns 1
+cout << y << endl;
+*/
